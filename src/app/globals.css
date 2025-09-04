@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic resets and theme */
+html, body, #__next { height: 100%; }
+body {
+  font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background-color: #0b1220;
+  color: #fff;
+}
+
+/* example utilities */
+.section { padding: 6rem 1.25rem; }
+.container { max-width: 1100px; margin: 0 auto; }
