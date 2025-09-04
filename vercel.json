@@ -5,3 +5,7 @@
     }
   }
 }
+
+{
+  "buildCommand": "npm install --force && npm run build"
+}
